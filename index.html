@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assests/CSS/style.css">
     <link rel="icon" href="assests/image/bike_icon.svg">
 
+
     <title>Bikenete</title>
 </head>
 
@@ -29,18 +30,11 @@
 
 
             <ul id="menu">
-                <li><a
-                        href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                </li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                 <li><a href="#equipamentos">&nbsp;&nbsp;&nbsp;&nbsp;Equipamentos&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a
-                        href="#diferencial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diferencial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                </li>
-                <li><a href="#sobre">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sobre
-                        nós&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a
-                        href="#contatos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contatos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                </li>
+                <li><a href="#diferencial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diferencial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#sobre">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sobre nós&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#contatos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contatos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                 <div class="div-btn"></div>
             </ul>
         </nav>
@@ -54,43 +48,73 @@
             <div id="fundo-home"></div>
         </section>
 
-        <section id="equipamentos-gerais" id="#equipamentos">
-            <h1 class="letreiros">Equipamentos :</h1>
-            <div class="todos-equipamentos">
-                <div class="equipamentos">
-                    <img src="assests/image/bike_adulto.png" alt="Bike Adulto">
-                    <h2>Bike <br> Adulto</h2>
-                    <p> <sup>R$</sup></p>
-                </div>
-                <div class="equipamentos">
-                    <img src="assests/image/patinete.png" alt="Patinete Eletrico">
-                    <h2>Patinete<br> Elétrico</h2>
-                    <p> <sup>R$</sup> 10</p>
-                </div>
-                <div class="equipamentos">
-                    <img src="assests/image/bike_infantil.png" alt="Bike infantil">
-                    <h2>Bike <br> Infantil</h2>
-                    <p> <sup>R$</sup>10</p>
-                </div>
-            </div>
-            <div class="todos-equipamentos">
-                <div class="equipamentos">
-                    <img src="assests/image/triciclo_familia.png" alt="triciclo Família">
-                    <h2>Triciclo<br> Família</h2>
-                    <p> <sup>R$</sup>15</p>
-                </div>
-                <div class="equipamentos">
-                    <img src="assests/image/triciclo_individual.png" alt="Triciclo Individual">
-                    <h2>Triciclo<br> Individual</h2>
-                    <p> <sup>R$</sup>12</p>
-                </div>
-                <div class="equipamentos">
-                    <img src="assests/image/capacete.png" alt="Capacete Protetor">
-                    <h2>Capacete<br> Protetor</h2>
-                    <p> <sup>R$</sup>5</p>
-                </div>
-            </div>
+        <section class="equipamentos" id="equipamentos">
 
+            <h1 class="letreiros">Equipamentos</h1>
+            <div class="todos_equip">
+                <!--prod1-->
+                <div class="card">
+                    <img src="assests/image/bike_adulto.png">
+                    <div>
+                        <h1>Bicicleta Adulto</h1>
+
+                        <span>R$1.980,00</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <!--prod2-->
+                <div class="card">
+                    <img src="assests/image/bike_infantil.png">
+                    <div>
+                        <h1>Bicicleta Infantil</h1>
+
+                        <span>R$1.350,00</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <!--prod3-->
+                <div class="card">
+                    <img src="assests/image/patinete.png">
+                    <div>
+                        <h1>Patinete Elétrico</h1>
+
+                        <span>R$2.000,00</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="todos_equip">
+                <!--prod4-->
+                <div class="card">
+                    <img src="assests/image/capacete.png">
+                    <div>
+                        <h1>Capacete</h1>
+
+                        <span>R$59,90</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <!--prod5-->
+                <div class="card">
+                    <img src="assests/image/triciclo_familia.png">
+                    <div>
+                        <h1>Triciclo Familia</h1>
+
+                        <span>R$2.165,50</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <!--prod6-->
+                <div class="card">
+                    <img src="assests/image/triciclo_individual.png">
+                    <div>
+                        <h1>Triciclo Individual</h1>
+
+                        <span>R$1.595,00</span>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="diferencial" id="#diferencial">
@@ -123,7 +147,7 @@
 
             <section>
     </main>
-
+    <br /><br /><br />
     <footer id="contatos">
         <div class="container-footer">
             <div class="row-footer">
@@ -192,7 +216,9 @@
         </div>
 
     </footer>
+
+    <script src="assests/script/script.js"></script>
+
 </body>
-<script src="script.js"></script>
 
 </html>
