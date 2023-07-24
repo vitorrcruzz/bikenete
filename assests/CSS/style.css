@@ -51,7 +51,8 @@ header {
 }
 
 header img {
-    width: 5rem;
+    width: 4rem;
+    margin-left: 1rem;
 }
 
 header a {
@@ -68,7 +69,7 @@ h1 {
 }
 
 .div-btn {
-    width: 8rem;
+    width: 7rem;
     height: 3.5rem;
     border: 0.2rem solid var(--color-bikenete);
     border-radius: 55vw;
@@ -154,7 +155,7 @@ h1 {
     height: 50%;
 }
 
-.card div span{
+.card div span {
     font-weight: bold;
 }
 
@@ -237,23 +238,34 @@ h1 {
     display: flex;
     justify-content: center;
     white-space: nowrap;
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
 }
 
-#sobre-nos {
+.sobre h1 {
+    color: var(--color-body);
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5vw;
+    white-space: nowrap;
+    margin-left: 50%;
+    margin-top: 1rem;
+    transform: translateX(-50%);
+}
 
-    height: 55rem;
+.about {
+    height: 18rem;
     display: flex;
-
     justify-content: center;
     flex-direction: column;
-
-
     align-items: center;
     gap: 4rem;
     font-weight: bold;
+}
 
-
+.about h2 {
+    font-size: 1.5vw;
+    color: var(--color-body);
+    width: 50%;
+    text-align: justify;
 }
 
 #diferencial {
@@ -436,7 +448,7 @@ hr {
     color: var(--color-neutral-40);
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 360px) and (max-width: 1024px) {
 
     header {
         display: flex;
@@ -467,16 +479,14 @@ hr {
     #menu li a {
         border-radius: 4vw;
         padding: 1rem;
-        border: .4vw solid var(--color-body);
+        border: none;
         margin: 1.5vw;
         white-space: nowrap;
-        color: var(--color-body);
-        gap: 30rem;
-
+        color: var(--color-neutral-40);
     }
 
     #menu li {
-        margin-top: 5rem;
+        margin-top: 4rem;
         text-align: center;
         color: var(--color-body);
         white-space: nowrap;
@@ -536,7 +546,7 @@ hr {
     /*TRADUÇÂO-quando nav tiver a class active adcione essas propriedades ao menu*/
         {
         visibility: visible;
-        height: 100VH;
+        height: 100vh;
     }
 
     #nav.active #hamburguer {
@@ -579,12 +589,8 @@ hr {
         height: 13rem;
     }
 
-    #home img {
-        height: 5rem;
-        position: absolute;
-        top: 7rem;
-        left: 54%;
-        z-index: 6;
+    #header img {
+        margin: 2rem;
     }
 
     .letreiros {
@@ -599,11 +605,11 @@ hr {
     .equipamentos .todos_equip {
         display: grid;
         justify-content: center;
-        padding:  .5rem;
-        
+        padding: .5rem;
+
     }
 
-    .card{
+    .card {
         margin-top: 1.5rem;
         margin-bottom: 2rem;
     }
@@ -634,7 +640,7 @@ hr {
     }
 
     .diferenciais {
-        width: 23rem;
+        width: 15rem;
         margin-bottom: 2rem;
     }
 
@@ -651,12 +657,22 @@ hr {
 
     .diferenciais p {
         font-size: 1.8rem;
+        
         color: var(--color-body);
     }
 
-    #sobre-nos {
-        height: 38rem;
-    }
+    
+.sobre h1 {
+    color: var(--color-body);
+    font-family: 'Playfair Display', serif;
+    font-size: 5.5vw; 
+    margin-bottom: 1rem;  
+}
+
+.about h2 {
+    font-size: 13px;
+    color: var(--color-body);
+}
 
     #home img {
         height: 5rem;
@@ -665,9 +681,23 @@ hr {
         left: 60%;
         z-index: 6;
     }
+
     .row-footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-col {
+        width: 75%;
+    }
+
+    #footer_copyright .footer-link {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        text-align: center;
     }
 }
