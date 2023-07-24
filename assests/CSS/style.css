@@ -191,7 +191,7 @@ h1 {
     margin-right: 5vw;
     display: grid;
     place-items: center;
-    background-image: url(/assests/image/background-home.jpeg);
+    background-image: url(../assests/image/background-home.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -588,6 +588,14 @@ hr {
     #fundo-home {
         height: 13rem;
     }
+    #home img
+  {
+    height: 5rem;
+    position: absolute;    
+    top: 7rem;
+    left: 54%;
+    z-index: 6;
+  }
 
     #header img {
         margin: 2rem;
