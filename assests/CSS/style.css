@@ -154,6 +154,10 @@ h1 {
     height: 50%;
 }
 
+.card div span{
+    font-weight: bold;
+}
+
 .equipamentos .todos_equip .card h1 {
     font-size: 1.2rem;
     color: #000000;
@@ -432,7 +436,7 @@ hr {
     color: var(--color-neutral-40);
 }
 
-@media(max-width: 700px) {
+@media screen and (min-width: 480px) and (max-width: 1024px) {
 
     header {
         display: flex;
@@ -524,7 +528,7 @@ hr {
     .active.div-btn::before {
         transition: 0.5s;
         position: absolute;
-        right: 63%;
+        right: 51%;
     }
 
     #nav.active #menu
@@ -595,9 +599,14 @@ hr {
     .equipamentos .todos_equip {
         display: grid;
         justify-content: center;
-        padding: 2rem 2.5rem;
+        padding:  .5rem;
+        
     }
 
+    .card{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
 
     #diferencial {
         height: auto;
@@ -655,5 +664,10 @@ hr {
         top: 13rem;
         left: 60%;
         z-index: 6;
+    }
+    .row-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
