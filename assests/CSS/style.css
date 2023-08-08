@@ -191,7 +191,7 @@ h1 {
     margin-right: 5vw;
     display: grid;
     place-items: center;
-    background-image: url(../assests/image/background-home.jpeg);
+    background-image: url(/assests/image/background-home.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
